@@ -45,3 +45,10 @@ body::-moz-scrollbar-thumb {
   text-decoration: none;
   user-select: none;
 }
+
+.preview {
+  transition: transform ease-in-out 0.3s;
+}
+.preview:hover {
+  transform: scale(1.2);
+}
