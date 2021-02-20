@@ -70,4 +70,9 @@
 .cozy-3raOZG .timestamp-3ZCmNB, .username-1A8OIy {
     color: #eaeaea !important;
 }
+    
+.messageGroupWrapper-o-Zw7G {
+    background: var(--background-secondary);
+    border: 1px solid var(--background-secondary);
+}
 }
