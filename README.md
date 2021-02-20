@@ -1,7 +1,7 @@
-<h1 align="center">Discord Gradient Theme</h1>
+<p align="center"><img width="600" height="157" src="https://kckarnige.github.io/My-Discord-Theme/banner.png"></p>
 <p align="center">Got bored so I made a nice theme</p>
 
-![](https://i.imgur.com/LHEcF9B.png)
+<p align="center"><img src="https://kckarnige.github.io/My-Discord-Theme/preview.png"></p>
 
 <h1 align="center">Installation</h1>
 <p align="center">To install this themes latest version, install <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/related">Stylus</a></p>
