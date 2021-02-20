@@ -11,10 +11,11 @@
 
 :root {
     --background-primary: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% ) !important;
-    --channeltextarea-background: rgba(54, 57, 63, .64) !important;
+    --channeltextarea-background: #36393f42 !important;
     --background-tertiary: rgba(54, 57, 63, .64) !important;
-    --scrollbar-auto-scrollbar-color-track: #36393fa3 !important;
-    --scrollbar-auto-scrollbar-color-thumb: #23272aa3 !important;
+    --scrollbar-auto-track: #36393fa3 !important;
+    --scrollbar-auto-thumb: #23272aa3 !important;
+    --scrollbar-thin-thumb: #23272aa3 !important;
     --interactive-normal: #7d7d7d !important;
 }
 
@@ -60,8 +61,8 @@
     border-top: thin solid #36393fa3 !important;
 }
 
-* {
-    scrollbar-color: var(--scrollbar-auto-scrollbar-color-thumb) var(--scrollbar-auto-scrollbar-color-track);
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background: #202225;
 }
 
 .cozy-3raOZG .timestamp-3ZCmNB, .username-1A8OIy {
