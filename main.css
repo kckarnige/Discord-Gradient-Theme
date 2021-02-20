@@ -1,0 +1,47 @@
+/* -Main CSS- */
+html, body {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: overlay;
+  margin: 0;
+  user-select: none;
+}
+body::-webkit-scrollbar {
+  width: 0.4em;
+  background: rgba(0,0,0,0);
+}
+body::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.4);
+  border-radius: 25px;
+}
+body::-moz-scrollbar {
+  width: 0.4em;
+  background: rgba(0,0,0,0.5);
+}
+body::-moz-scrollbar-thumb {
+  background: rgba(80,80,80,0.5);
+  border-radius: 10px;
+}
+.link {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  text-decoration: none;
+  color: #b0b0b0;
+}
+.link:active {
+  color: #b0b0b0;
+}
+.link:hover {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  color: #ffffff;
+  text-decoration: none;
+  user-select: none;
+}
