@@ -1,0 +1,70 @@
+@document domain("discord.com") {
+    /* ==UserStyle==
+    @name         Gradient Theme for Discord
+    @description  A simple gradient theme
+    @author       kckarnige#0266
+    @namespace    https://github.com/kckarnige/My-Discord-Theme
+    @version      1.0.0
+    ==/UserStyle== */
+
+.theme-dark, 
+
+:root {
+    --background-primary: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% ) !important;
+    --channeltextarea-background: rgba(54, 57, 63, .64) !important;
+    --background-tertiary: rgba(54, 57, 63, .64) !important;
+    --scrollbar-auto-scrollbar-color-track: #36393fa3 !important;
+    --scrollbar-auto-scrollbar-color-thumb: #23272aa3 !important;
+    --interactive-normal: #7d7d7d !important;
+}
+
+.wrapper-1Rf91z {
+    background: #202225 !important;
+}
+
+.scroller-2TZvBN {
+    background: #202225 !important;
+}
+
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
+    background: #202225 !important;
+}
+.container-1r6BKw.themed-ANHk51 {
+    background: rgba(54, 57, 63, .45) !important;
+}
+
+.chat-3bRxxu, .threadSidebar-1o3BTy {
+    background: var(--background-primary) !important;
+    background-size: cover !important;
+}
+
+.theme-dark .uploadModal-2ifh8j {
+    background: #36393fa3 !important;
+}
+
+.theme-dark .footer-3mqk7D {
+    background: #23272aa3 !important;
+}
+
+.attachment-33OFj0 {
+    background: #23272aa3 !important;
+    border-color: #23272aa3 !important;
+}
+
+.content-1o0f9g {
+    background: #36393fa3 !important;
+    color: #ffffff !important;
+}
+
+.divider-JfaTT5 {
+    border-top: thin solid #36393fa3 !important;
+}
+
+* {
+    scrollbar-color: var(--scrollbar-auto-scrollbar-color-thumb) var(--scrollbar-auto-scrollbar-color-track);
+}
+
+.cozy-3raOZG .timestamp-3ZCmNB, .username-1A8OIy {
+    color: #eaeaea !important;
+}
+}
