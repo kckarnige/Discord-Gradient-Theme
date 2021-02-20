@@ -17,10 +17,10 @@ body::-webkit-scrollbar-thumb {
 }
 body::-moz-scrollbar {
   width: 0.4em;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.0);
 }
 body::-moz-scrollbar-thumb {
-  background: rgba(80,80,80,0.5);
+  background: rgba(80,80,80,0.4);
   border-radius: 10px;
 }
 .link {
@@ -41,7 +41,7 @@ body::-moz-scrollbar-thumb {
   -moz-transition:.2s;
   -webkit-transition:.2s;
   transition:.2s;
-  color: #f0f0f0;
+  color: #e0e0e0;
   text-decoration: none;
   user-select: none;
 }
