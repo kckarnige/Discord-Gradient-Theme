@@ -1,5 +1,4 @@
 <p align="center"><img width="600" height="157" src="https://kckarnige.github.io/My-Discord-Theme/banner.png"></p>
-<p align="center">Got bored so I made a nice theme</p>
 
 <p align="center"><img src="https://kckarnige.github.io/My-Discord-Theme/preview.png"></p>
 
