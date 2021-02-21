@@ -6,88 +6,140 @@
     @namespace    https://github.com/kckarnige/My-Discord-Theme
     @version      1.0.0
     ==/UserStyle== */
-
     @import url('https://kckarnige.github.io/DC-Gradient-Theme/misc.css');
-    
-.theme-dark, 
 
-:root {
-    --background-primary: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% ) !important;
-    --channeltextarea-background: #36393f42 !important;
-    --background-tertiary: rgba(54, 57, 63, .64) !important;
-    --scrollbar-auto-track: #36393fa3 !important;
-    --scrollbar-auto-thumb: #23272aa3 !important;
-    --scrollbar-thin-thumb: #23272aa3 !important;
-    --interactive-normal: #7d7d7d !important;
-    --text-link: #86eee5 !important;
-}
+    .theme-dark,
 
-.wrapper-1Rf91z {
-    background: #202225 !important;
-}
+    :root {
+        --background-primary: linear-gradient( 109.6deg, rgba(5, 84, 94, 1) 16%, #bbb 91.1%) !important;
+        --channeltextarea-background: #36393f42 !important;
+        --background-tertiary: rgba(54, 57, 63, .64) !important;
+        --scrollbar-auto-track: #36393fa3 !important;
+        --scrollbar-auto-thumb: #23272aa3 !important;
+        --scrollbar-thin-thumb: #23272aa3 !important;
+        --interactive-normal: #7d7d7d !important;
+        --text-link: #86eee5 !important;
+    }
 
-.scroller-2TZvBN {
-    background: #202225 !important;
-}
+    .wrapper-1Rf91z {
+        background: #202225 !important;
+    }
 
-#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
-    background: #202225 !important;
-}
-.container-1r6BKw.themed-ANHk51 {
-    background: rgba(54, 57, 63, .45) !important;
-}
+    .scroller-2TZvBN {
+        background: #202225 !important;
+    }
 
-.chat-3bRxxu, .threadSidebar-1o3BTy {
-    background: var(--background-primary) !important;
-    background-size: cover !important;
-}
+    #app-mount .container-3baos1 .avatarWrapper-2yR4wp {
+        background: #202225 !important;
+    }
+    .container-1r6BKw.themed-ANHk51 {
+        background: rgba(54, 57, 63, .45) !important;
+    }
 
-.theme-dark .uploadModal-2ifh8j {
-    background: #36393fa3 !important;
-}
+    .chat-3bRxxu,
+    .threadSidebar-1o3BTy {
+        background: var(--background-primary) !important;
+        background-size: cover !important;
+    }
 
-.theme-dark .footer-3mqk7D {
-    background: #23272aa3 !important;
-}
+    .theme-dark .uploadModal-2ifh8j {
+        background: #36393fa3 !important;
+    }
 
-.attachment-33OFj0 {
-    background: #23272aa3 !important;
-    border-color: #23272aa3 !important;
-}
+    .theme-dark .footer-3mqk7D {
+        background: #23272aa3 !important;
+    }
 
-.content-1o0f9g {
-    background: #36393fa3 !important;
-    color: #ffffff !important;
-}
+    .attachment-33OFj0 {
+        background: #23272aa3 !important;
+        border-color: #23272aa3 !important;
+    }
 
-.divider-JfaTT5 {
-    border-top: thin solid #36393fa3 !important;
-}
+    .content-1o0f9g {
+        background: #36393fa3 !important;
+        color: #ffffff !important;
+    }
 
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
-    background: #202225;
-}
+    .divider-JfaTT5 {
+        border-top: thin solid #36393fa3 !important;
+    }
 
-.cozy-3raOZG .timestamp-3ZCmNB, .username-1A8OIy {
-    color: #eaeaea !important;
-}
-    
-.messageGroupWrapper-o-Zw7G {
-    background: var(--background-secondary);
-    border: 1px solid var(--background-secondary);
-}
-    
-.embedFull-2tM8--, .background-1QDuV2, .item-26Dhrx {
-    background: #36393fa3 !important;
-}
-    
-.wrapper-3WhCwL {
-    color: #86eee5;
-    background: #86eee569;
-}
-    
-.interactive:hover {
-    color: #fff;
-    background-color: #86eee569;
-}
+    .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+        background: #202225;
+    }
+
+    .cozy-3raOZG .timestamp-3ZCmNB,
+    .username-1A8OIy {
+        color: #eaeaea !important;
+    }
+
+    .messageGroupWrapper-o-Zw7G {
+        background: var(--background-secondary);
+        border: 1px solid var(--background-secondary);
+    }
+
+    .embedFull-2tM8--,
+    .background-1QDuV2,
+    .item-26Dhrx {
+        background: #36393fa3 !important;
+    }
+
+    .wrapper-3WhCwL {
+        color: #86eee5;
+        background: #86eee569;
+    }
+
+    .interactive:hover {
+        color: #fff;
+        background-color: #86eee569;
+    }
+
+    .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
+        background-color: #171717;
+        color: #ffffff;
+    }
+
+    html.theme-light .scrollableContainer-2NUZem::before {
+        content: " This theme is specifically for dark mode. Switch to back to dark mode, or uninstall.                 ";
+        font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+        color: #fff;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 6px;
+        background-color: #17171740;
+        text-align: center;
+        position: fixed;
+        z-index: 10001;
+        transform: translate(5%, 35%);
+    }
+
+    .tipTitle-GL9qAt {
+        color: var(--text-link);
+        transform: translate(0%, -10%);
+    }
+
+    .container-16j22k {
+        background: var(--background-primary);
+    }
+
+    .content-1-zrf2 {
+        background-color: #17171740;
+        padding: 12px;
+        border-radius: 25px;
+    }
+
+    .problems-3mgf6w {
+        background-color: #17171740;
+        padding: 12px;
+    }
+    .ready-36e6Vk {
+        background-color: #17171740;
+        border-radius: 25px;
+        padding: 5px;
+        transform: translate(0%, 4%);
+    }
+
+    .tip-2cgoli {
+        transform: translate(0%, 35%);
+    }
 }
