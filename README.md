@@ -1,6 +1,7 @@
 <p align="center"><a href="https://kckarnige.github.io/DC-Gradient-Theme"><img width="600" height="157" src="https://kckarnige.github.io/DC-Gradient-Theme/banner.png"></a></p>
 
 <p align="center"><img src="https://kckarnige.github.io/DC-Gradient-Theme/previewimg.png"></p>
+<p align="center"><img src="https://kckarnige.github.io/DC-Gradient-Theme/previewloading.png"></p>
 
 <h1 align="center">Installation</h1>
 <p align="center">To install this themes latest version, install <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/related">Stylus</a></p>
