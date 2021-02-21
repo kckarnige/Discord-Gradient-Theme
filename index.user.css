@@ -19,6 +19,7 @@
     --scrollbar-auto-thumb: #23272aa3 !important;
     --scrollbar-thin-thumb: #23272aa3 !important;
     --interactive-normal: #7d7d7d !important;
+    --text-link: #86eee5 !important;
 }
 
 .wrapper-1Rf91z {
@@ -74,5 +75,19 @@
 .messageGroupWrapper-o-Zw7G {
     background: var(--background-secondary);
     border: 1px solid var(--background-secondary);
+}
+    
+.embedFull-2tM8--, .background-1QDuV2, .item-26Dhrx {
+    background: #36393fa3 !important;
+}
+    
+.wrapper-3WhCwL {
+    color: #86eee5;
+    background: #86eee569;
+}
+    
+.interactive:hover {
+    color: #fff;
+    background-color: #86eee569;
 }
 }
