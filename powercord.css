@@ -1,0 +1,83 @@
+@import url('https://kckarnige.github.io/DC-Gradient-Theme/misc.css');
+    
+.theme-dark, 
+
+:root {
+    --background-primary: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% ) !important;
+    --channeltextarea-background: #36393f42 !important;
+    --background-tertiary: rgba(54, 57, 63, .64) !important;
+    --scrollbar-auto-track: #36393fa3 !important;
+    --scrollbar-auto-thumb: #23272aa3 !important;
+    --scrollbar-thin-thumb: #23272aa3 !important;
+    --interactive-normal: #7d7d7d !important;
+    --text-link: #86eee5 !important;
+}
+
+.wrapper-1Rf91z {
+    background: #202225 !important;
+}
+
+.scroller-2TZvBN {
+    background: #202225 !important;
+}
+
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
+    background: #202225 !important;
+}
+.container-1r6BKw.themed-ANHk51 {
+    background: rgba(54, 57, 63, .45) !important;
+}
+
+.chat-3bRxxu, .threadSidebar-1o3BTy {
+    background: var(--background-primary) !important;
+    background-size: cover !important;
+}
+
+.theme-dark .uploadModal-2ifh8j {
+    background: #36393fa3 !important;
+}
+
+.theme-dark .footer-3mqk7D {
+    background: #23272aa3 !important;
+}
+
+.attachment-33OFj0 {
+    background: #23272aa3 !important;
+    border-color: #23272aa3 !important;
+}
+
+.content-1o0f9g {
+    background: #36393fa3 !important;
+    color: #ffffff !important;
+}
+
+.divider-JfaTT5 {
+    border-top: thin solid #36393fa3 !important;
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background: #202225;
+}
+
+.cozy-3raOZG .timestamp-3ZCmNB, .username-1A8OIy {
+    color: #eaeaea !important;
+}
+    
+.messageGroupWrapper-o-Zw7G {
+    background: var(--background-secondary);
+    border: 1px solid var(--background-secondary);
+}
+    
+.embedFull-2tM8--, .background-1QDuV2, .item-26Dhrx {
+    background: #36393fa3 !important;
+}
+    
+.wrapper-3WhCwL {
+    color: #86eee5;
+    background: #86eee569;
+}
+    
+.interactive:hover {
+    color: #fff;
+    background-color: #86eee569;
+}
