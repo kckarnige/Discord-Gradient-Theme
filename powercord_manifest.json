@@ -1,0 +1,9 @@
+{
+    "name": "Gradient Theme for Discord",
+    "description": "A simple gradient theme",
+    "version": "1.0.0",
+    "author": "KayoticCarnige",
+    "theme": "powercord.css",
+    "consent": "false",
+    "license": "MIT"
+}
