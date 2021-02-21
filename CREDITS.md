@@ -3,3 +3,5 @@
 [Gibbu](https://www.gibbu.me) - [Radial Discord Status](https://github.com/DiscordStyles/RadialStatus)
 
 [Tomrdh](https://github.com/Tomrdh) - [No Nitro Tab](https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here)
+
+[CSS Gradient](https://cssgradient.io/) - [Gradient CSS](https://gradienthunt.com/gradient/17999)
