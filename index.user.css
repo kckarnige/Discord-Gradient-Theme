@@ -4,7 +4,7 @@
     @description  A simple gradient theme
     @author       KayoticCarnige
     @namespace    https://github.com/kckarnige/My-Discord-Theme
-    @version      2.1.0
+    @version      2.1.5
     ==/UserStyle== */
     @import url('https://kckarnige.github.io/DC-Gradient-Theme/misc.css');
 
@@ -179,6 +179,14 @@
     
     .theme-dark .message-2qRu38 {
         background-color: transparent !important;
-        box-shadow: none;
+        box-shadow: none !important;
+    }
+    
+    .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+        background-color: #86eee5 !important;
+        color: #fff !important;
+    }
+    .newMessagesBar-265mhP {
+        background-color: #86eee5 !important;
     }
 }
