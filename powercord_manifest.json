@@ -1,7 +1,7 @@
 {
     "name": "Gradient Theme for Discord",
     "description": "A simple gradient theme",
-    "version": "2.1.0",
+    "version": "2.1.5",
     "author": "KayoticCarnige",
     "theme": "powercord.css",
     "consent": "false",
