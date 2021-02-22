@@ -170,3 +170,8 @@ html.theme-light .scrollableContainer-2NUZem::before {
 .theme-dark .closeButton-1tv5uR {
     border-color: #ffffffa3 !important;
 }
+
+.theme-dark .message-2qRu38 {
+    background-color: transparent !important;
+    box-shadow: none;
+}
