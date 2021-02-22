@@ -173,5 +173,14 @@ html.theme-light .scrollableContainer-2NUZem::before {
 
 .theme-dark .message-2qRu38 {
     background-color: transparent !important;
-    box-shadow: none;
+    box-shadow: none !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: #86eee5 !important;
+    color: #fff !important;
+}
+.newMessagesBar-265mhP {
+    background-color: #86eee5 !important;
 }
