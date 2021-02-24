@@ -14,6 +14,21 @@
     --text-normal: #ffffff !important;
     --channels-default: #ffffff !important;
     --elevation-low: 0 !important;
+
+    /* ==Channel Indicators== */
+    --unread-badge: rgba(255, 255, 255, 0.6) !important;
+    --unread-bg: rgba(255, 255, 255, 0.01) !important;
+    --selected-badge: #86eee5 !important;
+    --selected-bg: #86eee536 !important;
+    --selected-bg-hover: #86eee54a !important;
+    --hovered-bg: #86eee51f !important;
+    --bg-rounding: 0 50px 50px 0 !important;
+    --border-info: 2px solid !important;
+}
+
+::selection {
+    background-color: #84e3db9e !important;
+    color: #fff !important;
 }
 
 .wrapper-1Rf91z {
@@ -96,6 +111,10 @@
     color: #ffffff !important;
 }
 
+.emptyCard-1RJw8n {
+    background: transparent !important;
+}
+
 html.theme-light .scrollableContainer-2NUZem::before {
     content: " This theme is specifically for dark mode. Switch to back to dark mode, or uninstall.                 ";
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -142,7 +161,7 @@ html.theme-light .scrollableContainer-2NUZem::before {
 
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     color: #ffffff !important;
-    background: #47d9cc !important;
+    background: #84e3db !important;
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
@@ -178,22 +197,60 @@ html.theme-light .scrollableContainer-2NUZem::before {
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-    background-color: #86eee5 !important;
-    color: #fff !important;
+    background-color: #84e3db !important;
+    color: #2f2f2f !important;
 }
+
+.childWrapper-anI2G9 {
+    color: #84e3db !important;
+}
+
+.item-2hkk8m {
+    background-color: #84e3db !important;
+}
+
 .newMessagesBar-265mhP {
-    background-color: #86eee5 !important;
+    background-color: #84e3db !important;
 }
 
 .label-22pbtT,
 .colorDefault-2K3EoJ {
-    color: #b9bbbe !important;
+    color: #fff !important;
 }
 
 .menu-3sdvDG {
     backdrop-filter: blur(5px) !important;
+    background: #23272a69 !important;
 }
 
-.emptyCard-1RJw8n {
-    background: #23272a69 !important;
+.icon-LYJorE {
+    color: #fff !important;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: #84e3db !important;
+    transition: 0.2s !important;
+}
+
+.reactionCount-2mvXRV {
+    color: var(--text-normal) !important;
+}
+
+.mention-1f5kbO {
+    background-color: #84e3db !important;
+    opacity: 1 !important;
+    color: #fff !important;
+    transition: 0.2s !important;
+}
+
+.mention-1f5kbO:hover {
+    background-color: #84e3db !important;
+    color: #2f2f2f !important;
+    transition: 0.2s !important;
+    opacity: 1 !important;
+}
+
+.botTagRegular-2HEhHi {
+    background-color: #84e3db !important;
+    color: #fff !important;
 }
