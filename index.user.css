@@ -25,14 +25,14 @@
         --elevation-low: 0 !important;
         
         /* ==Channel Indicators== */
-        --unread-badge: rgba(255, 255, 255, 0.6);
-        --unread-bg: rgba(255, 255, 255, 0.01);
-        --selected-badge: #86eee5;
-        --selected-bg: #86eee536;
-        --selected-bg-hover: #86eee54a;
-        --hovered-bg: #86eee51f;
-        --bg-rounding: 0 50px 50px 0;
-        --border-info: 2px solid;
+        --unread-badge: rgba(255, 255, 255, 0.6) !important;
+        --unread-bg: rgba(255, 255, 255, 0.01) !important;
+        --selected-badge: #86eee5 !important;
+        --selected-bg: #86eee536 !important;
+        --selected-bg-hover: #86eee54a !important;
+        --hovered-bg: #86eee51f !important;
+        --bg-rounding: 0 50px 50px 0 !important;
+        --border-info: 2px solid !important;
     }
     
     ::selection {
