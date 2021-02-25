@@ -4,35 +4,41 @@
     @description  A simple gradient theme
     @author       KayoticCarnige
     @namespace    https://github.com/kckarnige/DC-Gradient-Theme
-    @version      2.1.7
+    @version      2.1.8
     ==/UserStyle== */
     @import url('https://kckarnige.github.io/DC-Gradient-Theme/misc.css');
 
     .theme-dark,
 
     :root {
-        --background-primary: linear-gradient( 109.6deg, rgba(5, 84, 94, 1) 16%, #bbb 91.1%) !important;
-        --channeltextarea-background: #36393f42 !important;
-        --background-secondary: #36393f42 !important;
-        --background-tertiary: #36393fa3 !important;
-        --scrollbar-auto-track: #36393f7a !important;
-        --scrollbar-auto-thumb: #23272a8f !important;
-        --scrollbar-thin-thumb: #23272a8f !important;
-        --interactive-normal: #7d7d7d !important;
-        --text-link: #86eee5 !important;
-        --text-normal: #ffffff !important;
-        --channels-default: #ffffff !important;
-        --elevation-low: 0 !important;
+        
+        /* ==Main CSS=== */
+        
+        --background-primary: linear-gradient( 109.6deg, rgba(5, 84, 94, 1) 16%, #bbb 91.1%) !important; /* This is the background gradient */
+        --channeltextarea-background: #36393f42;
+        --background-secondary: #36393f42;
+        --background-tertiary: #36393fa3;
+        --scrollbar-auto-track: #36393f7a;
+        --scrollbar-auto-thumb: #23272a8f;
+        --scrollbar-thin-thumb: #23272a8f;
+        --interactive-normal: #7d7d7d;
+        --text-link: #86eee5;
+        --text-normal: #ffffff;
+        --channels-default: #ffffff;
+        --elevation-low: 0;
+        --folder-color: #23272a69;
         
         /* ==Channel Indicators== */
-        --unread-badge: rgba(255, 255, 255, 0.6) !important;
-        --unread-bg: rgba(255, 255, 255, 0.01) !important;
-        --selected-badge: #86eee5 !important;
-        --selected-bg: #86eee536 !important;
-        --selected-bg-hover: #86eee54a !important;
-        --hovered-bg: #86eee51f !important;
-        --bg-rounding: 0 50px 50px 0 !important;
-        --border-info: 2px solid !important;
+        
+        --unread-badge: rgba(255, 255, 255, 0.6);
+        --unread-bg: rgba(255, 255, 255, 0.01);
+        --selected-badge: #86eee5;
+        --selected-bg: #86eee536;
+        --selected-bg-hover: #86eee54a;
+        --hovered-bg: #86eee51f;
+        --bg-rounding: 0 50px 50px 0;
+        --border-info: 2px solid;
+        --ping-color: #84e3db;
     }
     
     ::selection {
@@ -135,7 +141,11 @@
         z-index: 10001;
         transform: translate(5%, 35%);
     }
-
+    
+    .scrollableContainer-2NUZem {
+        backdrop-filter: blur(5px) !important;
+    }
+    
     .tipTitle-GL9qAt {
         color: var(--text-link) !important;
         transform: translate(0%, -10%) !important;
@@ -257,5 +267,43 @@
     .botTagRegular-2HEhHi {
         background-color: #84e3db !important;
         color: #fff !important;
+    }
+    
+    .numberBadge-2s8kKX {
+        background-color: var(--ping-color) !important;
+    }
+    
+    .expandedFolderBackground-2sPsd- {
+        background: #84e3db27 !important;
+    }
+    
+    .expandedFolderIconWrapper-1xLaU- {
+        background-color: #84e3db77 !important;
+    }
+    
+    .jumpToPresentBar-G1R9s6 {
+        background-color: #84e3db !important;
+    }
+    
+    .navButton-2gQCx- {
+        border-radius: 4px;
+        color: #fff !important;
+    }
+    
+    .navButtonActive-1MkytQ {
+        background-color: #84e3db !important;
+        color: #fff !important;
+    }
+    
+    .inspector-S2gM3e {
+        background-color: #84e3db !important;
+    }
+    
+    .titleSecondary-3Dh_RZ {
+        color: var(--text-normal) !important;
+    }
+    
+    .contentWrapper-SvZHNd {
+        backdrop-filter: blur(5px) !important;
     }
 }
