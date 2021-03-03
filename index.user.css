@@ -4,7 +4,7 @@
 @description  A simple gradient theme
 @author       KayoticCarnige
 @namespace    https://github.com/kckarnige/DC-Gradient-Theme
-@version      2.2.0
+@version      2.2.1
 ==/UserStyle== */
 /* ==Addons== */
 @import url('https://raw.githack.com/LuckFire/Nicer-User-Connections/main/src/NicerUserConections.user.css');
@@ -371,5 +371,9 @@ html.theme-light .scrollableContainer-2NUZem::before {
 
 .edited-3sfAzf {
     color: #84e3db;
+}
+    
+.messagesPopoutWrap-1MQ1bW {
+    backdrop-filter: blur(5px) !important;
 }
 }
