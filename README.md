@@ -7,6 +7,7 @@
 <p align="center">To install this themes latest version, install <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/related">Stylus</a></p>
 <p align="center"><a href="https://kckarnige.github.io/Discord-Gradient-Theme/index.user.css" target="_blank" rel="noopener noreferrer">Now click here to install this theme</a></p>
 <p align="center">Powercord Install: <pre>git clone https://github.com/kckarnige/Powercord-Gradient-Theme.git</pre></p>
+<p align="center">BetterDiscord/Lightcord Install: <a href="https://kckarnige.github.io/Discord-Gradient-Theme/dc-grad.theme.css" download>Download</a></p>
 <p align="center">Credit goes to <a href="https://github.com/kckarnige/Discord-Gradient-Theme/blob/main/CREDITS.md">these fancy folks</a>, and their amazing stuffs</p>
 
 <p align="center">Enjoy the theme!</p>
